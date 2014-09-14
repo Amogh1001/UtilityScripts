@@ -17,4 +17,4 @@ function parse_git_branch () {
     echo $branch
 }
 
-PS1="$BRED\u@\h$BYELLOW:\w $BGREEN\$(parse_git_branch)$NO_COLOUR\n"
+PS1="$BRED\u@\h$BYELLOW:\w $BGREEN\$(parse_git_branch)$NO_COLOUR\n$ "
